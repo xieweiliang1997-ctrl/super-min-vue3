@@ -1,0 +1,22 @@
+{
+  "name": "@vuexwl/runtime-dom",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "module": "dist/runtime-dom.esm-bundler.js",
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "buildOptions": {
+    "name": "VueRuntimeDom",
+    "format": [
+      "esm-bundler",
+      "global"
+    ]
+  },
+  "dependencies": {
+    "@vuexwl/reactivity": "workspace:^1.0.0",
+    "@vuexwl/runtime-core": "workspace:^1.0.0",
+    "@vuexwl/shared": "workspace:^1.0.0"
+  }
+}

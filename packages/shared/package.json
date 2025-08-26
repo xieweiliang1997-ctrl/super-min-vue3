@@ -1,0 +1,23 @@
+{
+  "name": "@vuexwl/shared",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "module": "dist/shared.esm-bundler.js",
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "buildOptions": {
+    "name": "VueShared",
+    "format": [
+      "cjs",
+      "esm-bundler",
+      "global"
+    ]
+  },
+  "dependencies": {
+    "@vuexwl/reactivity": "workspace:^1.0.0",
+    "@vuexwl/runtime-core": "workspace:^1.0.0",
+    "@vuexwl/runtime-dom": "workspace:^1.0.0"
+  }
+}

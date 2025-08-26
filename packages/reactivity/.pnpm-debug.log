@@ -1,0 +1,15 @@
+{
+  "0 debug pnpm:scope": {
+    "selected": 1,
+    "workspacePrefix": "D:\\web\\vue\\codeVue"
+  },
+  "1 error pnpm": {
+    "code": "ERR_PNPM_MISSING_PACKAGE_NAME",
+    "err": {
+      "name": "pnpm",
+      "message": "`pnpm add` requires the package name",
+      "code": "ERR_PNPM_MISSING_PACKAGE_NAME",
+      "stack": "pnpm: `pnpm add` requires the package name\n    at Object.handler [as add] (C:\\Users\\coder\\AppData\\Roaming\\npm\\pnpm-global\\5\\node_modules\\.pnpm\\pnpm@6.32.9\\node_modules\\pnpm\\dist\\pnpm.cjs:122363:15)\n    at C:\\Users\\coder\\AppData\\Roaming\\npm\\pnpm-global\\5\\node_modules\\.pnpm\\pnpm@6.32.9\\node_modules\\pnpm\\dist\\pnpm.cjs:182612:83\n    at async run (C:\\Users\\coder\\AppData\\Roaming\\npm\\pnpm-global\\5\\node_modules\\.pnpm\\pnpm@6.32.9\\node_modules\\pnpm\\dist\\pnpm.cjs:182588:34)\n    at async runPnpm (C:\\Users\\coder\\AppData\\Roaming\\npm\\pnpm-global\\5\\node_modules\\.pnpm\\pnpm@6.32.9\\node_modules\\pnpm\\dist\\pnpm.cjs:182807:5)\n    at async C:\\Users\\coder\\AppData\\Roaming\\npm\\pnpm-global\\5\\node_modules\\.pnpm\\pnpm@6.32.9\\node_modules\\pnpm\\dist\\pnpm.cjs:182799:7"
+    }
+  }
+}

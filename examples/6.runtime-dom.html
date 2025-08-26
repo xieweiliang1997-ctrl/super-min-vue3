@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+
+<body>
+  <div id="app"></div>
+  <script src="../node_modules/@vuexwl/runtime-dom/dist/runtime-dom.global.js"></script>
+  <script>
+    const { rendererOptions, createApp, h, reactive } = VueRuntimeDom;
+    let App = {
+      setup(props, context) {
+        let state = reactive({
+          name: "xwl"
+        })
+        let fn = function () {
+          state.name = "ljh"
+          state.name = "l234"
+          state.name = "l2h"
+        }
+        return () => {
+          return h("div", { onClick: fn }, state.name)
+        }
+      },
+      // render(proxy) {
+      //   return h("div",{},"hello world")
+      // }
+    }
+    const app = createApp(App, { name: 'xwl', age: 12 }).mount("#app")
+
+  </script>
+</body>
+
+</html>

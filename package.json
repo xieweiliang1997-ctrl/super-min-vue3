@@ -1,0 +1,29 @@
+{
+  "private": true,
+  "name": "codevue",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "bootstrap": "pnpm i  @vuexwl/shared -r -w",
+    "dev": "node scripts/dev.js",
+    "build": "node scripts/build.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@rollup/plugin-json": "^4.1.0",
+    "@rollup/plugin-node-resolve": "^13.2.1",
+    "@vuexwl/reactivity": "workspace:^1.0.0",
+    "@vuexwl/runtime-core": "workspace:^1.0.0",
+    "@vuexwl/runtime-dom": "workspace:^1.0.0",
+    "@vuexwl/shared": "workspace:^1.0.0",
+    "execa": "5.0.0",
+    "rollup": "^2.70.2",
+    "typescript": "^4.6.3"
+  },
+  "devDependencies": {
+    "rollup-plugin-typescript2": "^0.31.2"
+  }
+}
